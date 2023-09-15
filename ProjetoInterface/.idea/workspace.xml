@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fe354f4-800f-408b-9919-cd4620caa787" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Swing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/Projeto1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoInterface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula1/Circulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula1/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula1/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula2/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula2/Carro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula2/Compra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula2/Curso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula2/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula2/Motor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula3/Banco/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula3/Banco/ContaCorrente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula3/Banco/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula3/Jogo/Bruxo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula3/Jogo/Direcao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula3/Jogo/Jogador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula3/Jogo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula3/Jogo/Paladino.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula4/Casa1/Jose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula4/Casa1/Maria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula4/Casa2/Joao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula4/Casa2/Leticia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Aula4/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto1/src/Jogo_Dama/Tabuleiro.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VR0Vmw7ESnfJNtB7N7woq69vcf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fe354f4-800f-408b-9919-cd4620caa787" name="Changes" comment="" />
+      <created>1694783613693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694783613693</updated>
+    </task>
+    <servers />
+  </component>
+</project>
