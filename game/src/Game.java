@@ -22,7 +22,7 @@ public class Game implements KeyListener {
         window.add(graphics);
 
         window.setTitle("Snake");
-        window.setSize(width * dimension, height * dimension);
+        window.setSize(width * dimension + 2, height * dimension + dimension + 4);
         window.setVisible(true);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
@@ -45,7 +45,7 @@ public class Game implements KeyListener {
     }
     private boolean check_wall_collision() {
             if(player.getX() < 0 || player.getX() >= width * dimension
-                    || player.getY() < 0 || player.getY() > height * dimension){
+                    || player.getY() < 0 || player.getY() >= height * dimension){
                 return true;
             }
             return false;
@@ -59,7 +59,7 @@ public class Game implements KeyListener {
     }
 
     private boolean check_self_collision(){
-        for(int i = 1; i< player.getBody().size(); i++){
+        for(int i = 1; i < player.getBody().size(); i++){
             if(player.getX() == player.getBody().get(i).x && player.getY() == player.getBody().get(i).y){
                 return true;
             }
@@ -68,33 +68,37 @@ public class Game implements KeyListener {
     }
 
     @Override
-    public void keyTyped(KeyEvent e) {}
+    public void keyTyped(KeyEvent e) {
+
+    }
 
     @Override
     public void keyPressed(KeyEvent e) {
 
         int keyCode = e.getKeyCode();
 
-        if(graphics.state == "RUNNING"){
-            if(keyCode == KeyEvent.VK_W){
+        if(graphics.state == "RUNNING") {
+            if(keyCode == KeyEvent.VK_W && player.getMove() != "DOWN") {
                 player.up();
             }
-            else if(keyCode == KeyEvent.VK_S){
+
+            if(keyCode == KeyEvent.VK_S && player.getMove() != "UP") {
                 player.down();
             }
-            else if(keyCode == KeyEvent.VK_A){
+
+            if(keyCode == KeyEvent.VK_A && player.getMove() != "RIGHT") {
                 player.left();
             }
-            else {
+
+            if(keyCode == KeyEvent.VK_D && player.getMove() != "LEFT") {
                 player.right();
             }
-        }else{
+        }
+        else {
             this.start();
         }
-
-
-
     }
+
 
     @Override
     public void keyReleased(KeyEvent e) {}

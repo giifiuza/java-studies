@@ -29,7 +29,7 @@ public class Snake {
     }
 
     public void move(){
-        if(move != "Nothing"){
+        if(move != "NOTHING"){
             Rectangle first = body.get(0);
             Rectangle temp = new Rectangle(Game.dimension, Game.dimension);
 
@@ -83,6 +83,9 @@ public class Snake {
         return body.get(0).y;
     }
 
+    public String getMove() {
+        return move;
+    }
     public void up(){
         move= "UP";
     }
