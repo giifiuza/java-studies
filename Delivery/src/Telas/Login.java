@@ -12,34 +12,24 @@ public class Login {
         JFrame tela = new JFrame("Coffee Cove");
         tela.setSize(800, 473);
         tela.setLocation(300, 250);
+        tela.setLayout(null);
 
         ImageIcon icon = new ImageIcon("C:\\Users\\ct67ca\\Desktop\\java-studies\\Delivery\\src\\Imagens\\fundo.png");
         JLabel label = new JLabel(icon);
+        label.setBounds(0,0, 800, 473);
+        label.setLayout(null);
         tela.add(label);
-        tela.setVisible(true);
-
-        JLabel section = new JLabel();
-        section.setBounds(160, 2, 300, 200);
-        section.setForeground(Color.red);
-        tela.add(section);
 
         JPanel panel = new JPanel();
-        panel.setForeground(Color.red);
-        panel.setBounds(140, 200, 120, 60);
-        tela.add(panel);
-        tela.setVisible(true);
-
+        panel.setBackground(Color.white);
+        panel.setBounds(115, 43, 550, 350);
+        label.add(panel);
 
 //        JButton botao = new JButton("Click here!");
 //        botao.setBounds(140, 200, 120, 60);
 //        botao.setBackground(Color.red);
 //        tela.add(botao);
-    }
-    public void Section(){
-        JLabel section = new JLabel("Olá");
-        section.setBounds(160, 2, 300, 200);
-        section.setForeground(Color.white);
-
+        tela.setVisible(true);
     }
 
 }
