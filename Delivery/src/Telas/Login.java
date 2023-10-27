@@ -10,7 +10,7 @@ public class Login {
     }
     public void App(){
         JFrame tela = new JFrame("Coffee Cove");
-        tela.setSize(800, 473);
+        tela.setSize(650, 500);
         tela.setLocation(300, 250);
         tela.setLayout(null);
 
@@ -22,13 +22,35 @@ public class Login {
 
         JPanel panel = new JPanel();
         panel.setBackground(Color.white);
-        panel.setBounds(115, 43, 550, 350);
+        panel.setLayout(null);
+        panel.setBounds(40, 43, 560, 360);
         label.add(panel);
 
-//        JButton botao = new JButton("Click here!");
-//        botao.setBounds(140, 200, 120, 60);
-//        botao.setBackground(Color.red);
-//        tela.add(botao);
+        JPanel panelImage = new JPanel();
+        panelImage.setLayout(null);
+        panelImage.setBounds(0,0,280,380);
+        panel.add(panelImage);
+
+        JPanel panelInput = new JPanel();
+        panelInput.setLayout(null);
+        panel.setBackground(Color.white);
+        panelInput.setBounds(0,0,280,380);
+        panel.add(panelInput);
+
+        ImageIcon imagem = new ImageIcon("C:\\Users\\ct67ca\\Desktop\\java-studies\\Delivery\\src\\Imagens\\coffe.jpg");
+        JLabel img = new JLabel(imagem);
+        img.setBounds(0,0, 280, 380);
+        img.setLayout(null);
+        panelImage.add(img);
+
+        JLabel title = new JLabel();
+        title.setBounds(160, 100, 300, 200);
+        title.setForeground(Color.magenta);
+        title.setFont(new Font("Arial", 1, 40));
+        title.setText("Settei esse txt");
+        panelInput.setVisible(true);
+
+
         tela.setVisible(true);
     }
 
