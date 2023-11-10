@@ -4,7 +4,7 @@ import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 
-public class Login {
+public class Login extends Original {
 
     public Login() {
         App();
@@ -15,8 +15,8 @@ public class Login {
         tela.setLocation(300, 250);
         tela.setLayout(null);
 
-        ImageIcon icon = new ImageIcon("C:\\Users\\37076111837\\Desktop\\java-studies\\Delivery\\src\\Imagens\\fundo.png");
-        //ImageIcon icon = new ImageIcon("C:\\Users\\ct67ca\\Desktop\\java-studies\\Delivery\\src\\Imagens\\fundo.png");
+//        ImageIcon icon = new ImageIcon("C:\\Users\\37076111837\\Desktop\\java-studies\\Delivery\\src\\Imagens\\fundo.png");
+        ImageIcon icon = new ImageIcon("C:\\Users\\ct67ca\\Desktop\\java-studies\\Delivery\\src\\Imagens\\fundo.png");
         JLabel label = new JLabel(icon);
         label.setBounds(0,0, 800, 473);
         label.setLayout(null);
@@ -39,8 +39,8 @@ public class Login {
         panelInput.setBounds(280,0,280,380);
         panel.add(panelInput);
 
-        ImageIcon imagem = new ImageIcon("C:\\Users\\37076111837\\Desktop\\java-studies\\Delivery\\src\\Imagens\\coffe.jpg");
-        //ImageIcon imagem = new ImageIcon("C:\\Users\\ct67ca\\Desktop\\java-studies\\Delivery\\src\\Imagens\\coffe.jpg");
+//        ImageIcon imagem = new ImageIcon("C:\\Users\\37076111837\\Desktop\\java-studies\\Delivery\\src\\Imagens\\coffe.jpg");
+        ImageIcon imagem = new ImageIcon("C:\\Users\\ct67ca\\Desktop\\java-studies\\Delivery\\src\\Imagens\\coffe.jpg");
         JLabel img = new JLabel(imagem);
         img.setBounds(0,-20, 280, 380);
         img.setLayout(null);
@@ -75,7 +75,7 @@ public class Login {
         titlePassword.setFont(new Font("Arial", 1, 15));
         panelInput.add(titlePassword);
 
-        JTextField inputPassword = new JTextField();
+        JPasswordField inputPassword = new JPasswordField();
         inputPassword.setBounds(50, 190, 170, 30);
         inputPassword.setForeground(Color.black);
         inputPassword.setLayout(null);
