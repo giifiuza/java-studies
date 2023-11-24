@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a92dc8b-7416-4560-9d08-c926a9ba3882" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Delivery/Objetos 3D - Atalho.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-studies.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-studies/Imagens/coffe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-studies/Imagens/fundo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-studies/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-studies/Telas/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
