@@ -1,10 +1,14 @@
 package VIEW;
 
 import classes.Usuario;
+import connectionDB.ConexaoDAO;
+import connectionDB.UsuarioConn;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
+import java.sql.*;
+
 
 public class Login {
 
@@ -91,12 +95,32 @@ public class Login {
         btn.setBorder(new LineBorder(cor, 2));
         btn.setBackground(cor);
         btn.addActionListener(e ->{
-            String user, senha;
-            user = inputUser.getText();
-            senha = new String (inputPassword.getPassword());
-            Usuario objusuario = new Usuario();
-            objusuario.setUser(user);
-            objusuario.setSenha(senha);
+            try {
+                String user, senha;
+
+                user = inputUser.getText();
+                senha = new String (inputPassword.getPassword());
+
+                Usuario objusuario = new Usuario();
+
+                objusuario.setUser(user);
+                objusuario.setSenha(senha);
+
+                UsuarioConn objusuConn = new UsuarioConn();
+                ResultSet rsusuarioConn = objusuConn.autenticacaoUser(objusuario);
+
+                //sempre que for mostrar algo do banco o tipo da variavel é ResulSet
+
+                if (rsusuarioConn.next()) {
+                
+                }else {
+
+                }
+
+
+            }catch(SQLException error){
+                JOptionPane.showMessageDialog(null, "Login tela"+error);
+            }
 
 
 
