@@ -18,8 +18,13 @@ public class UsuarioConn {
             PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.setString(1, objusuario.getUser());
             pstm.setString(2, objusuario.getSenha());
+
+            ResultSet rs = pstm.executeQuery();
+            return rs;
+
         } catch (SQLException error){
             JOptionPane.showMessageDialog(null, "UsuarioConn" + error);
+            return null;
         }
     }
 }
