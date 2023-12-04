@@ -8,6 +8,7 @@ import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.sql.*;
+import VIEW.Produtos;
 
 
 public class Login {
@@ -112,18 +113,16 @@ public class Login {
                 //sempre que for mostrar algo do banco o tipo da variavel é ResulSet
 
                 if (rsusuarioConn.next()) {
-                
+                    Produtos telaProduto = new Produtos();
+
+                    tela.setVisible(false);
                 }else {
-
+                    JOptionPane.showMessageDialog(null, "Usuario ou senha inválido");
                 }
-
 
             }catch(SQLException error){
                 JOptionPane.showMessageDialog(null, "Login tela"+error);
             }
-
-
-
         });
         panelInput.add(btn);
 
@@ -134,6 +133,11 @@ public class Login {
         btnRegister.setForeground(cor);
         btnRegister.setBackground(corBtn);
         btnRegister.setBorder(new LineBorder(corBtn, 2));
+        btnRegister.addActionListener(e ->{
+            Register telaRegister = new Register();
+
+            tela.setVisible(false);
+        });
         panelInput.add(btnRegister);
 
         tela.setVisible(true);
