@@ -10,6 +10,7 @@ public class ConexaoDAO {
         Connection conn = null;
 
         try {
+            
             String url = "jdbc:mysql://localhost:3306/deliveryDB?user=root&password=";
             conn = DriverManager.getConnection(url);
 
