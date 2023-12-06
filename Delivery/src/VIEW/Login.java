@@ -1,14 +1,12 @@
 package VIEW;
 
-import classes.Usuario;
-import connectionDB.ConexaoDAO;
+import DTO.Usuario;
 import connectionDB.UsuarioConn;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.sql.*;
-import VIEW.Produtos;
 
 
 public class Login {

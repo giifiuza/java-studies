@@ -1,8 +1,13 @@
 package VIEW;
 
+import DTO.Usuario;
+import connectionDB.UsuarioConn;
+
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class Register {
     public Register() {
@@ -101,6 +106,22 @@ public class Register {
         btn.setForeground(Color.white);
         btn.setBorder(new LineBorder(cor, 2));
         btn.setBackground(cor);
+        btn.addActionListener(e ->{
+
+            String user, senha;
+
+            user = inputUser.getText();
+            senha = new String (inputPassword.getPassword());
+//                senha2 = new String (inputPassword2.getPassword());
+
+            Usuario objusuario = new Usuario();
+
+            objusuario.setUser(user);
+            objusuario.setSenha(senha);
+
+            UsuarioConn userCon = new UsuarioConn();
+            userCon.registerUser(objusuario);
+        });
         panelInput.add(btn);
 
         JButton btnLogin = new JButton("Login");
@@ -110,6 +131,11 @@ public class Register {
         btnLogin.setForeground(cor);
         btnLogin.setBackground(corBtn);
         btnLogin.setBorder(new LineBorder(corBtn, 2));
+        btnLogin.addActionListener(e -> {
+            Login telaLogin  = new Login();
+
+            tela.setVisible(false);
+        });
         panelInput.add(btnLogin);
 
         tela.setVisible(true);

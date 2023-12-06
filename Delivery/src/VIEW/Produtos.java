@@ -1,13 +1,7 @@
 package VIEW;
 
-import classes.Usuario;
-import connectionDB.ConexaoDAO;
-import connectionDB.UsuarioConn;
-
 import javax.swing.*;
-import javax.swing.border.LineBorder;
 import java.awt.*;
-import java.sql.*;
 
 
 public class Produtos {
